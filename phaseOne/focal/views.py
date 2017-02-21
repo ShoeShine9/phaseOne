@@ -16,3 +16,8 @@ def photo(request, num):
     resp = "<h> showing photo number: {}".format(num)
 
     return HttpResponse(resp)
+
+
+def django(request):
+
+    return render(request, "bootstrapDemo.html")
